@@ -1,0 +1,71 @@
+.headern{
+    background: #e3e6f3;
+    justify-content: space-between;
+    padding: 10px 60px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+.navbar li{
+    font-size: 16px ;
+    font-weight: 600;
+    color : #1a1a1a;
+    transition: 0.3s ease;
+    position: relative;
+}
+.navbar li:hover{
+    color:#088178;
+}
+.navbar .active{
+    color:#088178;
+}
+.navbar .active::after,
+.navbar li:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 18px;
+}
+
+.hero{
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) ),url("C:\Users\DIDI\Downloads\—Pngtree—taobao vector creative technology online_1110799.jpg") ;
+    background-size:cover;
+    height: 90vh;
+    width: 100%;
+    background-position: center top ;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-repeat: no-repeat;
+
+    
+    
+}
+.hero h4{
+    padding: 0px 11px;
+
+}
+.hero h2{
+    color: white;
+    padding: 5px 10px;
+}
+.hero h1{
+    color: #f3f0e3;
+    padding: 5px 10px;
+}
+.hero p{
+    padding: 0 10px;
+
+}
+.hero button{
+    padding: 16px 16px;
+    border-radius: 16px;
+    margin-top: 16px;
+    background:#088178;
+    font-weight: bold;
+    color: white;
+    
+}
